@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronRight, BarChart2, MousePointer2, Globe, Users, MessageSquare, ArrowUpRight, Phone, Mail, MapPin } from 'lucide-react';
+import ChatBot from './components/ChatBot';
 
 const App = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -324,6 +325,7 @@ const App = () => {
           </div>
         </div>
       </footer>
+      <ChatBot />
     </div>
   );
 };
