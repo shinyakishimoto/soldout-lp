@@ -6,7 +6,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([
     {
       role: 'model',
-      text: 'こんにちは！SOLDOUTのAIアシスタントです。デジタルマーケティングに関するご質問をお気軽にどうぞ。',
+      text: 'やっほ〜！うちSOLちゃんっていうの✨ SOLDOUTのデジタルマーケ担当ギャルだよ💅 なんか聞きたいことあったらガチで答えるから気軽に話しかけてね〜🔥',
     },
   ]);
   const [input, setInput] = useState('');
@@ -62,7 +62,7 @@ const ChatBot = () => {
                 <Bot className="w-5 h-5 text-white" />
               </div>
               <div>
-                <div className="text-white font-bold text-sm">AIアシスタント</div>
+                <div className="text-white font-bold text-sm">SOLちゃん💅</div>
                 <div className="flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
                   <span className="text-blue-100 text-xs">オンライン</span>
